@@ -20,8 +20,4 @@
     <ProjectReference Include="..\AtendimentoWeb_Model\AtendimentoWeb_Model.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Usuarios\" />
-  </ItemGroup>
-
 </Project>
