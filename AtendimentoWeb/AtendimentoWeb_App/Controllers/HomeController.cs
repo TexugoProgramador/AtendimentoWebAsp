@@ -18,10 +18,10 @@ namespace AtendimentoWeb_App.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        public IActionResult Index() => RedirectToAction("Index", "Admin");
+       // {
+       //     return View();
+       // }
 
         public IActionResult Privacy()
         {
