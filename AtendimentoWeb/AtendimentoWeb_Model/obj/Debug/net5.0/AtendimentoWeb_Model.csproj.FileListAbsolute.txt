@@ -1,0 +1,12 @@
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\bin\Debug\net5.0\AtendimentoWeb_Model.deps.json
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\bin\Debug\net5.0\AtendimentoWeb_Model.dll
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\bin\Debug\net5.0\AtendimentoWeb_Model.pdb
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.csproj.AssemblyReference.cache
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.AssemblyInfoInputs.cache
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.AssemblyInfo.cs
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.csproj.CoreCompileInputs.cache
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.dll
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\refint\AtendimentoWeb_Model.dll
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\AtendimentoWeb_Model.pdb
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_Model\obj\Debug\net5.0\ref\AtendimentoWeb_Model.dll
