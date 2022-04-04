@@ -440,3 +440,4 @@ C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoW
 C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_App\obj\Debug\net5.0\AtendimentoWeb_App.pdb
 C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_App\obj\Debug\net5.0\AtendimentoWeb_App.genruntimeconfig.cache
 C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_App\obj\Debug\net5.0\ref\AtendimentoWeb_App.dll
+C:\Users\Humberto\Documents\GitHub\AtendimentoWebAsp\AtendimentoWeb\AtendimentoWeb_App\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
