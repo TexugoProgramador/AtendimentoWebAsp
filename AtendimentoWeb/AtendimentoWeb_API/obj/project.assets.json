@@ -75,6 +75,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "AtendimentoWeb_Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AtendimentoWeb_Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AtendimentoWeb_Model.dll": {}
+        }
       }
     }
   },
@@ -185,10 +195,16 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "AtendimentoWeb_Model/1.0.0": {
+      "type": "project",
+      "path": "../AtendimentoWeb_Model/AtendimentoWeb_Model.csproj",
+      "msbuildProject": "../AtendimentoWeb_Model/AtendimentoWeb_Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AtendimentoWeb_Model >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -218,7 +234,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Humberto\\Documents\\GitHub\\AtendimentoWebAsp\\AtendimentoWeb\\AtendimentoWeb_Model\\AtendimentoWeb_Model.csproj": {
+              "projectPath": "C:\\Users\\Humberto\\Documents\\GitHub\\AtendimentoWebAsp\\AtendimentoWeb\\AtendimentoWeb_Model\\AtendimentoWeb_Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

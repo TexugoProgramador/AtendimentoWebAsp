@@ -8,67 +8,35 @@ using AtendimentoWeb_Model.Negocio;
 
 namespace AtendimentoWeb_Model.Models
 {
-    public class UsuarioModel: UsuarioBusiness
+    public class UsuarioModel : UsuarioBusiness
     {
-        public List<Usuario> ConsultarListaUsuarios(bool isPodeConsultar)
+
+        public Usuario Consultar(long id, bool? ativo = true, string nome = "")
         {
-
-            try
+            return ConsultarListaUsuarios(ativo, nome).Where(a=> a.UsuarioId == id).FirstOrDefault();
+        }
+        
+        public List<Usuario> ConsultarListaUsuarios(bool? ativo = null, string nome = "")
+        {
+        
+            List<Usuario> ListaUsuarios = new List<Usuario>();
+            ListaUsuarios.Add(new Usuario() { UsuarioId = 1, Nome = "Nome 1", Ativo = true });
+            ListaUsuarios.Add(new Usuario() { UsuarioId = 2, Nome = "Nome 2", Ativo = false });
+            ListaUsuarios.Add(new Usuario() { UsuarioId = 3, Nome = "Nome 3", Ativo = true });
+            ListaUsuarios.Add(new Usuario() { UsuarioId = 4, Nome = "Nome 4", Ativo = false });
+            ListaUsuarios.Add(new Usuario() { UsuarioId = 5, Nome = "Nome 5", Ativo = true });
+        
+            if (ativo != null)
             {
-                List<Usuario> Lista = new List<Usuario>()
-                {
-                    new Usuario()
-                    {
-                        UsuarioId = 1,
-                        Nome = "Nome 1",
-                        Ativo = true
-                    },
-                    new Usuario()
-                    {
-                        UsuarioId = 2,
-                        Nome = "Nome 2",
-                        Ativo = false
-                    },
-                    new Usuario()
-                    {
-                        UsuarioId = 3,
-                        Nome = "Nome 3",
-                        Ativo = true
-                    },
-                    new Usuario()
-                    {
-                        UsuarioId = 4,
-                        Nome = "Nome 4",
-                        Ativo = false
-                    },
-                    new Usuario()
-                    {
-                        UsuarioId = 5,
-                        Nome = "Nome 5",
-                        Ativo = true
-                    }
-                };
-                return Lista.Where(a=> a.Ativo = isPodeConsultar).ToList();
-            }
-            catch (Exception)
+                ListaUsuarios = ListaUsuarios.Where(a => a.Ativo == ativo.Value).ToList();
+            } 
+        
+            if (!string.IsNullOrEmpty(nome))
             {
-
-                throw;
+               ListaUsuarios = ListaUsuarios.Where(a => a.Nome.ToLower().Contains(nome.ToLower()) ).ToList();
             }
-
-            /*
-            List<Chamado> Lista = new List<Chamado>()
-            {
-                new Chamado()
-                {
-                    ChamadoId = 1,
-                    Descricao = "Teste ",
-                    DataCriacao = new DateTime(2022, 03, 24),
-                    Status = "Em Aberto"
-                }
-            };
-            return Lista;
-            */
-            }
+        
+            return ListaUsuarios;
+        }
     }
-    }
+}
